@@ -1,3 +1,4 @@
 $(function ()
-{ $(".thumbnail").tooltip('hover');
+{ $(".thumbs").popover();
 });
+
