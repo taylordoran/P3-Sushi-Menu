@@ -1,8 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
+a{
+	text-decoration: none;
+	  color:#FFF;
+	  -o-transition:.5s;
+	  -ms-transition:.5s;
+	  -moz-transition:.5s;
+	  -webkit-transition:.5s;
+	  transition:.5s;
+}
+
+a:hover{ 
+	color:red; 
+	text-decoration: none;
+
+}
+
 body{
-	background:url(../img/pattern.png);	
+	background-color: #000;
+}
+
+#bar{
+	background-color:#000;
+	padding: 30px;	
 }
 
 .container {
@@ -10,18 +31,31 @@ body{
 }
 
 #bigheader{
-	padding: 50px;
-	font-size: 100px;	
+	padding: 60px;
+	font-size: 185px;
+	color: #FFF	;
+	font-family:'Wire One', sans-serif;
+}
+
+#history{
+	color:#FFF;
+	width: 700px;	
 }
 
 img{
 	margin: 5px 0; 
  }
+ 
+li{
+	text-decoration: none;
+	list-style:	none;
+}
 
 nav {
-	position: fixed;	
-	left: 1300px;
+	margin: 0 80px 5px 0;
+	left: 1200px;
 	font-size:20px;
+	float: right;
 	
 	
 }
@@ -37,6 +71,14 @@ nav li{
 	 
  }
  
+ .logo{
+	 position: relative;
+	 z-index: 1;
+ }
+ 
+
+ 
+
  
  
 
